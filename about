@@ -17,7 +17,7 @@
           </button>
           <div id="navbar-menu" class="detached">
             <ul class="navbar-links">
-              <li class="navbar-item"><a class="navbar-link" href="/about">About</a></li>
+              <li class="navbar-item"><a class="navbar-link" href="">About</a></li>
               <li class="navbar-item"><a class="navbar-link" href="">Blog</a></li>
               <li class="navbar-item"><a class="navbar-link" href="">Careers</a></li>
               <li class="navbar-item"><a class="navbar-link" href="">Contact</a></li>
@@ -25,7 +25,7 @@
           </div>
         </nav>
     </header>
-
+    <div class="daw">dawadawdawdawdawdawdawdadw</div>
 </body>
 <script src="script.js"></script>
 </html>
