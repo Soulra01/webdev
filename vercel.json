@@ -3,6 +3,10 @@
     {
       "source": "/about",
       "destination": "/about.html"
+    },
+    {
+      "source": "/home",
+      "destination": "/index.html"
     }
   ]
 }
