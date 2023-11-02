@@ -2,11 +2,11 @@
   "rewrites": [
     {
       "source": "/about",
-      "destination": "/components/about.html"
+      "destination": "/about.html"
     },
     {
       "source": "/home",
-      "destination": "./components/home.html"
+      "destination": "/index.html"
     }
   ]
 }
