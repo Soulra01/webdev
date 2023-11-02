@@ -5,7 +5,7 @@
       "destination": "/components/about.html"
     },
     {
-      "source": "/",
+      "source": "/home",
       "destination": "/components/home.html"
     }
   ]
