@@ -6,7 +6,7 @@
     },
     {
       "source": "/home",
-      "destination": "/components/home.html"
+      "destination": "./components/home.html"
     }
   ]
 }
