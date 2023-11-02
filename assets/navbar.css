@@ -88,6 +88,11 @@
     height: 30px;
     margin-right: 0.5em;
   }
+  .navbar-logo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }
   
   .navbar-toggle {
     cursor: pointer;
