@@ -5,7 +5,7 @@
       "destination": "/component/portofolio/about.html"
     },
     {
-      "source": "/home",
+      "source": "/",
       "destination": "/index.html"
     }
   ]

@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Poppins:wght@500&display=swap');
+
+.footer-container{
+    /* background-color: red; */
+    width: 100%;
+    height: 150px;
+    position: absolute;
+    bottom: 0;
+    color: white;
+}
+.footerdesc{
+    font-size: 20px;
+    font-family: Indie Flower;
+    font-weight: 1000;
+    text-align: center;
+    padding: 10px;
+    cursor: context-menu;
+}
+.footer-container .socmed{
+    display: flex;
+    justify-content: center;
+    /* padding-top: 5px; */
+    gap : 30px;
+    font-size: 40px;
+    text-decoration: none;
+}
+.socmed a{
+    color: white;
+}
+
+.copyright-container{
+    text-align: center;
+    font-family: poppins;
+    font-weight: 500;
+}
