@@ -2,15 +2,87 @@
 
 
 body{
-    background-color: #0d0d0d;
+    background-color: #1D2228;
 }
 /* BATASNYA */
 
+.greet-container{
+    width: 100%;
+}
 
-
-@media screen and (min-width: 1000px) {
-  
+.greet{
+    height: 70vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0 10%;
+    color: white;
+}
+.greet-text{
+    width: 50%;
+}
+.greet-text h1{
+    font-family: 'Pacifico';
+    font-size: 40px;
+    font-weight: 1000;
+    padding-bottom: 20px;
+}
+.greet-text p{
+    font-size: 20px;
+    font-family: monospace;
+    line-height: 1.5;
+    text-align: justify;
+    padding: 10px;
+    cursor: context-menu;
+}
+.greet-img{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.greet-img img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid white;
 }
 
 
-
+@media screen and (max-width: 1000px) {
+    .greet{
+        flex-direction: column-reverse;
+        height: 100%;
+        gap: 20px;
+    }
+    .greet-text{
+        padding-bottom: 20px;
+        width: 100%;
+    }
+    .greet-text h1{
+        font-family: 'Pacifico';
+        font-size: 30px;
+        font-weight: 1000;
+        padding-bottom: 20px;
+    }
+    .greet-text p{
+        width: 100%;
+        font-family: monospace;
+        line-height: 1.5;
+        text-align: justify;
+        /* padding: 10px; */
+        cursor: context-menu;
+    }
+    .greet-img{
+        padding-top: 20px;
+    }
+    .greet-img img{
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 5px solid white;
+    }
+}

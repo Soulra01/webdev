@@ -1,7 +1,7 @@
 {
   "rewrites": [
     {
-      "source": "/about",
+      "source": "/Portofolio",
       "destination": "/component/portofolio/about.html"
     },
     {
