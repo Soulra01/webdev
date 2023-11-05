@@ -1,14 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Poppins:wght@500&display=swap');
 
 .footer-container{
-    /* background-color: red; */
     width: 100%;
     height: 160px;
     padding-top: 50px;
     color: white;
-    /* position: absolute; */
-    /* bottom: 2%; */
-    /* margin-bottom: 20px; */
 }
 .footerdesc{
     font-size: 20px;
