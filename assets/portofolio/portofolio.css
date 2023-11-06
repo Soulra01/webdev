@@ -15,7 +15,7 @@ body{
 .portofolio-main .title{
     width: 100%;
     height: 100px;
-    margin-bottom: 30px;
+    margin: 30px 0;
 }
 
 .portofolio-main .title h1{
@@ -71,13 +71,12 @@ body{
 }
 
 .card-img img{
-    transition: transform 0.3s ease;
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 10px;
-    
     border: #1D2228 5px solid;
+    transition: transform 0.3s ease;
 }
 #card1 .card-img img{
     margin-left: 20%;
@@ -108,18 +107,18 @@ body{
     margin-left: -80px;
 }
 
-.card-desc p{
+.card-desc {
     font-family: 'poppins';
     font-size: 20px;
     line-height: 1.5;
     text-align: justify;
-    padding: 10px;
+    padding: 20px;
 }
 
 @media screen and (max-width: 1000px) {
     .card{
         width: 80%;
-        height: 200px;
+        height: fit-content;
         margin: auto;
         flex-direction: column;
         padding: 0;
@@ -128,18 +127,18 @@ body{
         display: none;
     }
     .card-desc{
-    }
-    .card-desc p{
-        text-align: justify;
-        font-size: 13px;
+        width: fit-content;
         padding: 0;
+        margin: 0px;
+        font-size: 15px;
+        letter-spacing: 1px;
     }
     #card1 .card-desc{
-        margin: 50px;
         padding: 0;
+        margin: 20px;
     }
     #card2 .card-desc{
-        margin: 50px;
+        margin: 20px;
         padding: 0;
     }
 
