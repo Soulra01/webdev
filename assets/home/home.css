@@ -77,8 +77,11 @@ body{
     }
     .greet-img{
         padding-top: 20px;
+        width: 300px;
+        height: 300px;
     }
     .greet-img img{
+        /* position: inherit; */
         width: 300px;
         height: 300px;
         object-fit: cover;
