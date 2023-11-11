@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Poppins:wght@500&family=Preahvihear&family=Roboto&display=swap');
 
 :root {
     --navbar-bg-color: #1D2228;
     --navbar-text-color: hsl(0, 0%, 85%);
     --navbar-text-color-focus: white;
-    --navbar-bg-contrast: hsl(0, 100%, 25%);
+    --navbar-bg-contrast: hsl(0, 0%, 30%);
   }
   
   * {
@@ -41,15 +41,14 @@
     justify-content: space-between;
     height: 100%;
     align-items: center;
-    font-family: poppins;
+    font-family: Preahvihear;
   }
   .home-link{
     /* font-family: 'Pacifico'; */
     font-size: 1.5rem;
     color: var(--navbar-text-color-focus);
   }
-  .navbar-link{
-  }
+
   .home-link,
   .navbar-link {
     color: var(--navbar-text-color);
