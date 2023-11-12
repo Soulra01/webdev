@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Poppins:wght@500&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital@1&display=swap');
 
 
 body{
@@ -11,8 +11,7 @@ body{
 }
 
 .greet{
-    /* height: fit-content; */
-    height: 50vh;
+    height: 70vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,10 +22,10 @@ body{
     width: 50%;
 }
 .greet-text h1{
-    font-family: indie flower;
+    font-family: 'Pacifico';
     font-size: 40px;
     font-weight: 1000;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 .greet-text p{
     font-size: 20px;
@@ -50,30 +49,16 @@ body{
     border-radius: 50%;
     border: 5px solid white;
 }
-.news{
-    width: 100%;
-    height: 200px;
-    background-color: red;
-}
-.news-container{
-    /* width: 100%; */
-    height: 100%;
-    background-color: blue;
-    margin: 20px;
-    color: white;
-    font-family: indie flower;
-}
+
 
 @media screen and (max-width: 1000px) {
     .greet{
         flex-direction: column-reverse;
         height: 100%;
-        margin: 5px;
         gap: 20px;
     }
     .greet-text{
-        text-align: center;
-        padding: 10px;
+        padding-bottom: 20px;
         width: 100%;
     }
     .greet-text h1{
@@ -87,8 +72,7 @@ body{
         font-family: monospace;
         line-height: 1.5;
         text-align: justify;
-        /* padding: 0px; */
-        margin: 0px;
+        /* padding: 10px; */
         cursor: context-menu;
     }
     .greet-img{
