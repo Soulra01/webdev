@@ -127,4 +127,12 @@ body{
         border-radius: 50%;
         border: 5px solid white;
     }
+    .entry-container{
+        flex-direction: column;
+    }
+    .tanggal-diary{
+        width: 100%;
+        font-size: 12px;
+        margin: 0;
+    }
 }
