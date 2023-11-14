@@ -19,7 +19,7 @@ function dispdiary() {
         const hrnya = document.createElement('hr');
         const entrycontainer = document.createElement('div');
         entrycontainer.classList.add('entry-container');
-        entrycontainer.innerHTML = '<hr>';
+        // entrycontainer.innerHTML = '<hr>';
         entrycontainer.appendChild(tanggalDiv);
         entrycontainer.appendChild(entryDiv);
         diaryEntriesDiv.appendChild(entrycontainer);
