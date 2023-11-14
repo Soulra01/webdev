@@ -29,7 +29,7 @@ navbarLinksContainer.addEventListener("click", (clickEvent) => {
 navbarMenu.addEventListener("click", closeMobileNavbar);
 
   document
-    .getElementById("options")
+    .getElementById("navbar-menu")
     .querySelectorAll("input[name='navtype']")
     .forEach((option) => {
       option.addEventListener("change", (e) => {
