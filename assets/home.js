@@ -1,4 +1,4 @@
-import data from './data.json' assert { type: 'json' };
+import data from './home/diary.json' assert { type: 'json' };
 
 data.forEach(diary => {
     console.log(diary.tanggal);
