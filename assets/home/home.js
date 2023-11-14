@@ -23,7 +23,7 @@ function dispdiary() {
         entrycontainer.appendChild(tanggalDiv);
         entrycontainer.appendChild(entryDiv);
         diaryEntriesDiv.appendChild(entrycontainer);
-        diaryEntriesDiv.appendChild(hrnya);
+        // diaryEntriesDiv.appendChild(hrnya);
     });
 }
 
